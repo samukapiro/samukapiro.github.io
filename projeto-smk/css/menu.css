@@ -1,0 +1,92 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    /* a propriedade abaixo resolve o efeito colateral do float */
+    overflow: hidden;
+}
+.menu li { float: left;}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: block;
+    /*border-right: solid 1px;
+    box-shadow: black 1px 1px 10px; */
+}
+.menu li a:hover, .menu li a:focus {
+background-color: white;
+color: darkblue;
+}
+/* versao provisoria */
+/*  @media screen and (max-width:760px) {
+    .menu li { float: none}
+    .menu li a { text-align: center; }
+}*/
+
+
+
+.menu li.icone { display: none; }
+@media screen and (max-width: 760px){
+
+    .menu li { display: none; }
+
+    .menu li.icone {
+        display: block;
+        float: right;
+      }
+      /* ativando o posicionamento relativo */
+      .menu.responsivo { position: relative; }
+
+  .menu.responsivo li.icone {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .menu.responsivo li {
+    float: none;
+    display: inline;
+  }
+
+}
+.registro {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none; 
+    text-transform: uppercase;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    padding-top: 55px;
+    top: 400px;
+    right: 50px;
+    transform: rotate(5deg);
+    transition: 0.5s;
+
+}
+
+.hoje {
+    font-size: 24px;
+    color: yellow;
+}
+
+.registro:hover, .registro:focus {
+    background-color: darkblue;
+    transform: rotate(10deg);
+	
+}

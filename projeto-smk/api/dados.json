@@ -1,0 +1,110 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java Pleno"
+    },
+    {
+      "id": 2,
+      "titulo": "Analista Comercial"
+    },
+    {
+      "id": 3,
+      "titulo": "Instrutor Excel Avançado"
+    },
+    {
+      "id": 4,
+      "titulo": "Gerente de Projetos para .NET"
+    },
+    {
+      "id": 5,
+      "titulo": "Consultor de Desenvolvimento Agil"
+    },
+    {
+      "id": 6,
+      "titulo": "Programador VB.Net"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "samuel",
+      "data": "2021-06-09",
+      "telefone": "11982371524",
+      "email": "samn8@hotmail.com",
+      "vaga": "Programador Java Pleno",
+      "id": 1
+    },
+    {
+      "nome": "ILMA WILLRICH PEDRUSSI BENJAMIN PEDRUSSI",
+      "data": "2021-06-16",
+      "telefone": "11982371524",
+      "email": "kihn.ikee_e948g@fuluj.com",
+      "vaga": "Instrutor Excel Avançado",
+      "id": 2
+    },
+    {
+      "nome": "maria",
+      "data": "2021-06-15",
+      "telefone": "11982371524",
+      "email": "seneidemaria@hotmail.com",
+      "vaga": "Analista Comercial",
+      "id": 3
+    },
+    {
+      "nome": "dado",
+      "data": "2021-06-01",
+      "telefone": "11982371524",
+      "email": "samn8@hotmail.com",
+      "vaga": "Analista Comercial",
+      "id": 4
+    },
+    {
+      "nome": "morgana",
+      "data": "2021-06-10",
+      "telefone": "11982371524",
+      "email": "seneidemaria@hotmail.com",
+      "vaga": "Consultor de Desenvolvimento Agil",
+      "id": 5
+    },
+    {
+      "nome": "nair",
+      "data": "2021-06-07",
+      "telefone": "11982371524",
+      "email": "kihn.ikee_e948g@fuluj.com",
+      "vaga": "Instrutor Excel Avançado",
+      "id": 6
+    },
+    {
+      "nome": "monarr",
+      "data": "2021-06-01",
+      "telefone": "11982371524",
+      "email": "seneidemaria@hotmail.com",
+      "vaga": "Instrutor Excel Avançado",
+      "id": 7
+    },
+    {
+      "nome": "jair",
+      "data": "2021-06-24",
+      "telefone": "11982371524",
+      "email": "seneidemaria@hotmail.com",
+      "vaga": "Consultor de Desenvolvimento Agil",
+      "id": 8
+    },
+    {
+      "nome": "rai dos santos ",
+      "data": "2021-06-02",
+      "telefone": "11982371524",
+      "email": "samn8@hotmail.com",
+      "vaga": "Gerente de Projetos para .NET",
+      "id": 9
+    },
+    {
+      "nome": "maria maria ",
+      "data": "2021-06-02",
+      "telefone": "11982371524",
+      "email": "samn8@hotmail.com",
+      "vaga": "Gerente de Projetos para .NET",
+      "id": 10
+    }
+  ]
+}
